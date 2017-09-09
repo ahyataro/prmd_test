@@ -1,0 +1,18 @@
+{
+  "definitions": {
+    "Person": {
+      "title": "Person",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": -2147483648,
+          "maximum": 2147483647
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
